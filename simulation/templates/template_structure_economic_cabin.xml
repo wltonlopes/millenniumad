@@ -32,17 +32,22 @@
     <Classes datatype="tokens">DropsiteFood</Classes>
     <VisibleClasses datatype="tokens">Village Farmstead</VisibleClasses>
     <Icon>structures/hunting_lodge.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_village
+      </Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <wood>20</wood>
   </Loot>
-  <ProductionQueue>
+  <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
     gather_meat
     unlock_hunter
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <RallyPoint disable=""/>
   <ResourceDropsite>
     <Types>food</Types>

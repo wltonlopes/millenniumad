@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
-  <Attack>
+  <!-- <Attack>
     <Ranged>
       <Damage>
         <Hack>0.0</Hack>
@@ -25,7 +25,7 @@
         <LineThickness>0.175</LineThickness>
       </RangeOverlay>
     </Ranged>
-  </Attack>
+  </Attack> -->
   <BuildRestrictions>
     <Territory>own neutral</Territory>
     <Category>CivilCentre</Category>
@@ -61,8 +61,25 @@
   <Obstruction>
     <Static width="30.0" depth="16.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+ <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+      germanic_thingstead
+      unlock_champion_units_modded
+    </Technologies>
+  </Researcher>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">5</Hack>
+        <Pierce op="add">5</Pierce>
+        <Crush op="add">3</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+ <Trainer>
+
     <Entities datatype="tokens">
       units/{civ}/infantry_swordsman_b
       units/{civ}/infantry_spearman_b
@@ -74,21 +91,7 @@
       units/{civ}/hero_ivar_the_boneless
       units/{civ}/hero_hastein
     </Entities>
-    <Technologies datatype="tokens">
-      attack_soldiers_will
-      germanic_thingstead
-      unlock_champion_units_modded
-    </Technologies>
-  </ProductionQueue>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack op="add">5</Hack>
-        <Pierce op="add">5</Pierce>
-        <Crush op="add">3</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
+  </Trainer>
   <VisualActor>
     <Actor>structures/norse/jarls_hold.xml</Actor>
   </VisualActor>

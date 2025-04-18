@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="civ/rus|template_unit_ship_trireme">
+<Entity parent="civ/rus|template_unit_ship_warship_siege">
   <Cost>
     <BuildTime>80</BuildTime>
   </Cost>
@@ -27,8 +27,14 @@
     <Types>food wood stone metal</Types>
 	  <Sharable>false</Sharable>
   </ResourceDropsite>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_swordsman_b
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_archer_b
+    </Entities>
+  </Trainer>
+  <!-- <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/infantry_swordsman_b
       units/{civ}/infantry_spearman_b
@@ -41,7 +47,7 @@
       <metal>1.0</metal>
       <time>1.0</time>
     </TechCostMultiplier>
-  </ProductionQueue>
+  </ProductionQueue> -->
   <VisualActor>
     <Actor>structures/norse/drakkar.xml</Actor>
   </VisualActor>

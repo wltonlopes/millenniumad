@@ -15,7 +15,7 @@
     <Bonus>4</Bonus>
   </Population>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+
     <Technologies datatype="tokens">
     </Technologies>
   </ProductionQueue>

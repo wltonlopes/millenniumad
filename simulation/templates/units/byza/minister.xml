@@ -39,7 +39,11 @@
 	<Tooltip>
 Use to boost the efficiency of nearby units and buildings. Garrison within a building to boost the efficiency of its production queue.</Tooltip>
     <History>In the Byzantine Empire, Archontes were a class of provincial governors in charge to administer the bureaucratic affairs of the cities.</History>
-    <RequiredTechnology>byza/economy_reform</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+    </Requirements>byza/economy_reform</RequiredTechnology>
   </Identity>
   <Minimap>
     <Type>hero</Type>

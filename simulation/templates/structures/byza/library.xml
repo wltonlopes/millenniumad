@@ -16,11 +16,11 @@
     <SpecificName>Library</SpecificName>
      <Icon>structures/portrait_university.png</Icon>
   </Identity>
-   <ProductionQueue>
+   <Researcher>
     <Technologies datatype="tokens">
       byza/philosophy_capture
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
    <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_library.xml</select>

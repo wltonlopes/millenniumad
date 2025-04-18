@@ -6,7 +6,11 @@
 	  <SelectionGroupName>units/anglo/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Rideheres</SpecificName>
     <Icon>units/anglo_cavalry_spearman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+  </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/anglo/cavalry_spearman_a</Entity>

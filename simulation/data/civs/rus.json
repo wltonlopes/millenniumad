@@ -2,8 +2,6 @@
 	"Code": "rus",
 	"Culture": "norse",
 	"Name": "Rus",
-	"Emblem": "session/portraits/emblems/emblem_russya.png",
-	"History": "The Rus’ was a great commercial empire, spanning from the Baltic Sea to the Bosphorus. For centuries this land has been territory of passage between the germanic tribes of the north and the hellenic civilizations of the south and a crossroad between East and West.",
 	"Music": [
 		{
 			"File": "To_Valhalla.ogg",
@@ -51,7 +49,6 @@
 		}
 
 	],
-	"CivBonuses": [],
 	"WallSets": [
 		"structures/wallset_palisade",
 		"structures/norse/wallset_stone"
@@ -76,19 +73,8 @@
 			"Template": "units/rus/cavalry_scout"
 		}
 	],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line",
-		"special/formations/shieldwall"
-	],
+	"CivBonuses":[],
+	"TeamBonuses":[],
 	"AINames": [
 		"Oleg of Novgorod",
 		"Vsevolod of Kiev",

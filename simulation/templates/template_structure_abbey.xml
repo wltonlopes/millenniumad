@@ -43,7 +43,11 @@
     <Tooltip>Train healers. Garrison units to heal them at a quick rate (3 HP per second). Research healing and religious improvements.</Tooltip>
     <VisibleClasses datatype="tokens">Town Temple</VisibleClasses>
     <Icon></Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <stone>50</stone>
@@ -52,11 +56,8 @@
   <Population>
     <Bonus>5</Bonus>
   </Population>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}_support_healer_b
-    </Entities>
+ <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
       heal_range
       heal_range_2
@@ -65,7 +66,7 @@
       heal_temple
       health_regen_units
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_temple.xml</select>
@@ -78,6 +79,12 @@
     <Radius>40</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
+  <Trainer>
+
+    <Entities datatype="tokens">
+      units/{civ}_support_healer_b
+    </Entities>
+  </Trainer>
   <Vision>
     <Range>40</Range>
   </Vision>

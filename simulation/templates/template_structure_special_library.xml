@@ -22,7 +22,11 @@
     <GenericName>Library</GenericName>
     <SelectionGroupName>template_structure_special_library</SelectionGroupName>
     <VisibleClasses datatype="tokens">Library</VisibleClasses>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+  </Requirements>
     <Icon>structures/library_scroll.png</Icon>
   </Identity>
   <Loot>
@@ -32,13 +36,13 @@
   <Obstruction>
     <Static width="25.0" depth="30.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
       astronomy
       health_regen_medicine
       architecture_defense
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_library.xml</select>

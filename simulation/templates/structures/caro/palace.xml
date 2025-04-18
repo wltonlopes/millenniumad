@@ -46,27 +46,30 @@
     <Radius>48</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-	  units/{civ}/hero_charlemagne
-	  units/{civ}/champion_infantry
-	  units/{civ}/champion_cavalry
-	  units/{civ}/mechanical_siege_ram
-    </Entities>
+  <Researcher>
+
     <Technologies datatype="tokens">
       siege_attack
       siege_cost_time
       siege_health
       siege_pack_unpack
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <ResourceTrickle>
     <Rates>
       <metal>2</metal>
     </Rates>
     <Interval>1000</Interval>
   </ResourceTrickle>
+  <Trainer>
+
+    <Entities datatype="tokens">
+	  units/{civ}/hero_charlemagne
+	  units/{civ}/champion_infantry
+	  units/{civ}/champion_cavalry
+	  units/{civ}/mechanical_siege_ram
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/spartans/fortress.xml</Actor>
   </VisualActor>

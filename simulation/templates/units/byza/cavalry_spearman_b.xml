@@ -7,7 +7,11 @@
 	  <SelectionGroupName>units/byza/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Hippoakritēs</SpecificName>
     <Icon>units/byza_cavalry_spearman.png</Icon>
-	<RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/byza/cavalry_spearman_a</Entity>

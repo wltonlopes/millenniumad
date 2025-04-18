@@ -14,18 +14,20 @@
   <Obstruction>
     <Static width="35.0" depth="40.0"/>
   </Obstruction>
+  <Researcher>
+     <Technologies datatype="tokens">
+      ship_speed_norse
+    </Technologies>
+  </Researcher>
   <Population>
     <Bonus>2</Bonus>
   </Population>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/ship_trireme
       units/{civ}/ship_bireme
     </Entities>
-    <Technologies datatype="tokens">
-      ship_speed_norse
-    </Technologies>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/rus/dock.xml</Actor>
   </VisualActor>

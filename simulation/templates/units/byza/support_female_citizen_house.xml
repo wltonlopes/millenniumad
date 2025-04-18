@@ -4,6 +4,14 @@
     <BuildTime>30</BuildTime>
   </Cost>
   <Identity>
-    <RequiredTechnology>unlock_females_house</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+    <Requirements>
+      <Techs datatype="tokens">
+        unlock_females_house
+      </Techs>
+    </Requirements>
   </Identity>
 </Entity>

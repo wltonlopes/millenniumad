@@ -26,7 +26,7 @@
     <Bonus>2</Bonus>
   </Population>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
+
     <Entities datatype="tokens">
       gaia/fauna_sheep_trainable
       gaia/fauna_pig_trainable

@@ -4,7 +4,11 @@
     <Civ>byza</Civ>
     <GenericName>High Wall</GenericName>
     <SpecificName>Teichos</SpecificName>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+    </Requirements>phase_city</RequiredTechnology>
   </Identity>
   <WallSet>
     <Templates>

@@ -47,7 +47,11 @@
     CivSpecific
   </Classes>
     <History>Boyars were the member of the highest rank of the feudal system in early slavic societies. The title Boila is predecessor or old form of the title "Bolyar", Bulgarian adaptation from Greek and Byzantine bureaucratic traditions.</History>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_city
+      </Techs>
+    </Requirements>
     <Icon>structures/palace.png</Icon>
     <Tooltip>Build to unlock a powerful suite of Administrative technologies.</Tooltip>
   </Identity>
@@ -64,18 +68,14 @@
   <Population>
     <Bonus>10</Bonus>
   </Population>
-  <ProductionQueue>
-     <Entities datatype="tokens">
-     units/rus/champion_infantry_axeman
-     units/rus/champion_cavalry
-    </Entities>
+  <Researcher>
     <Technologies datatype="tokens">
       unlock_mercenaries
       rus/serfdom
       rus/buildtime_structures_cranes
       unlock_champion_cavalry
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_civ_center.xml</select>
@@ -83,6 +83,12 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
+<Trainer>
+    <Entities datatype="tokens">
+     units/rus/champion_infantry_axeman
+     units/rus/champion_cavalry
+    </Entities>
+</Trainer>
   <Vision>
     <Range>60</Range>
   </Vision>

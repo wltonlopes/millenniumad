@@ -3,7 +3,11 @@
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>Smiþþe</SpecificName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+  </Requirements>
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
   <Population>

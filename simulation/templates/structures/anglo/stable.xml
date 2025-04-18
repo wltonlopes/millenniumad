@@ -7,7 +7,11 @@
   <Identity>
     <Civ>anglo</Civ>
     <Icon>structures/stables.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+  </Requirements>
   </Identity>
   <Population>
     <Bonus>8</Bonus>

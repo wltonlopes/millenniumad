@@ -15,7 +15,11 @@
     <GenericName>Bodyguard</GenericName>
     <SpecificName>Huskárl</SpecificName>
     <Icon>units/norse_huskarl.png</Icon>
-    <RequiredTechnology>unlock_champion_units_modded</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        unlock_champion_units_modded
+      </Techs>
+    </Requirements>
     <SelectionGroupName>units/norse/champion_huscarl</SelectionGroupName>
   </Identity>
   <VisualActor>

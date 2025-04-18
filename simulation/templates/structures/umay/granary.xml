@@ -27,7 +27,11 @@
     <Classes datatype="tokens">
 	  CivSpecific
 	</Classes>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+  </Requirements>
     <Tooltip>Gain a trickle of Food resource for each Granary built.</Tooltip>
     <History>An agadir is a fortified communal granary found in the Maghreb. Some of these date back to the 10th century.</History>
     <Icon>structures/grain_bag.png</Icon>
@@ -36,7 +40,7 @@
     <Static width="16.0" depth="16.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
+
   </ProductionQueue>
   <ResourceTrickle>
     <Rates> 

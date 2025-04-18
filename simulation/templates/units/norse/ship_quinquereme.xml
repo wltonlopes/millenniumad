@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_ship_trireme">
+<Entity parent="template_unit_ship_warship_siege">
   <Cost>
     <BuildTime>80</BuildTime>
   </Cost>
@@ -28,7 +28,7 @@
 	  <Sharable>false</Sharable>
   </ResourceDropsite>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
+
     <Entities datatype="tokens">
       units/{civ}/infantry_swordsman_b
       units/{civ}/infantry_spearman_b

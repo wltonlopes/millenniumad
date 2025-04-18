@@ -13,12 +13,12 @@
   <Identity>
     <Civ>byza</Civ>
   </Identity>
-   <ProductionQueue>
+   <Researcher>
     <Technologies datatype="tokens">
       -health_regen_units
       byza/holy_protection
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <VisualActor>
     <Actor>structures/byzantines/temple_B.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

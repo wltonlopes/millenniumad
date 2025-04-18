@@ -7,14 +7,14 @@
     <Civ>byza</Civ>
     <SpecificName>Empórios</SpecificName>
   </Identity>
-   <ProductionQueue>
-    <Technologies datatype="tokens">
-  byza/venetian_trade
-    </Technologies>
-  </ProductionQueue>
   <Obstruction>
     <Static width="31" depth="34"/>
   </Obstruction>
+   <Researcher>
+    <Technologies datatype="tokens">
+      byza/venetian_trade
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/byzantines/market.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

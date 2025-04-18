@@ -47,7 +47,11 @@
     CivSpecific
   </Classes>
     <History>To assist the Caliph in administration there were six boards at the centre. Diwan al-Kharaj (the Board of Revenue), Diwan al-Rasa'il (the Board of Correspondence), Diwan al-Khatam (the Board of Signet), Diwan al-Barid (the Board of Posts), Diwan al-Qudat (the Board of Justice) and Diwan al-Jund (the Military Board).</History>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+  </Requirements>
     <Icon>structures/imperial_ministry.png</Icon>
     <Tooltip>Build to unlock a powerful suite of Administrative technologies.</Tooltip>
   </Identity>
@@ -64,15 +68,14 @@
   <Population>
     <Bonus>10</Bonus>
   </Population>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+  <Researcher>
     <Technologies datatype="tokens">
-umay/pair_diwan2
-umay/pair_diwan3
-umay/pair_hospital
-umay/pair_justice
+    umay/pair_diwan2
+    umay/pair_diwan3
+    umay/pair_hospital
+    umay/pair_justice
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <ResourceTrickle>
     <Rates>
       <food>0.0</food>

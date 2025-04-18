@@ -69,16 +69,11 @@
 	<Population>
 		<Bonus>5</Bonus>
 	</Population>
-	<ProductionQueue>
-		<Entities datatype="tokens">
-			units/{civ}/infantry_swordsman_b_house
-			units/{civ}/support_female_citizen
-			-units/{civ}/support_female_citizen_house
-		</Entities>
-		<Technologies datatype="tokens">
-			-unlock_females_house
-		</Technologies>
-	</ProductionQueue>
+  <Researcher>
+    <Technologies datatype="tokens">
+		-unlock_females_house
+    </Technologies>
+  </Researcher>
 	<ResourceDropsite>
 		<Types>food wood</Types>
 		<Sharable>true</Sharable>
@@ -88,6 +83,14 @@
 		<Radius>40</Radius>
 		<Weight>65535</Weight>
 	</TerritoryInfluence>
+	<Trainer>
+		<BatchTimeModifier>0.8</BatchTimeModifier>
+		<Entities datatype="tokens">
+			units/{civ}/infantry_swordsman_b_house
+			units/{civ}/support_female_citizen
+			-units/{civ}/support_female_citizen_house
+		</Entities>
+	</Trainer>	
 	<Vision>
 		<Range>40</Range>
 	</Vision>

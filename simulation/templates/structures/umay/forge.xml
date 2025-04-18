@@ -5,7 +5,7 @@
     <SpecificName></SpecificName>
   </Identity>
    <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+
     <Technologies datatype="tokens">
 umay/pair_forge
     </Technologies>

@@ -30,7 +30,11 @@
     <Classes datatype="tokens">Barter</Classes>
     <VisibleClasses datatype="tokens">Trade Town Market</VisibleClasses>
     <Icon>structures/military_market.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+  </Requirements>
   </Identity>
   <Loot>
     <wood>60</wood>
@@ -42,7 +46,8 @@
   <Obstruction>
     <Static width="30.0" depth="26.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <ProductionQueue/>
+  <Researcher>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
       trader_health
@@ -50,10 +55,7 @@
       trade_gain_02
       trade_commercial_treaty
     </Technologies>
-    <Entities datatype="tokens">
-      units/{civ}/support_trader
-    </Entities>
-  </ProductionQueue>
+  </Researcher>
    <ResourceDropsite>
     <Types>food wood stone metal</Types>
     <Sharable>true</Sharable>
@@ -76,6 +78,12 @@
   </Sound>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
+  <Trainer>
+
+    <Entities datatype="tokens">
+      units/{civ}/support_trader
+    </Entities>
+  </Trainer>
   <Vision>
     <Range>32</Range>
   </Vision>

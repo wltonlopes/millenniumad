@@ -26,7 +26,11 @@
     <Tooltip>Traits: Scout, Good Hunter, Fast Speed, Trample.
 Strong Against: Nothing.
 Weak Against: Everything.</Tooltip>
-	<RequiredTechnology>phase_village</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_village
+      </Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <xp>100</xp>

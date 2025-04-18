@@ -14,21 +14,23 @@
 		<Civ>rus</Civ>
 		<SpecificName>Kazarma</SpecificName>
 		<GenericName>Barracks</GenericName>
-		<RequiredTechnology>phase_village</RequiredTechnology>
+	    <Requirements>
+			<Techs datatype="tokens">
+				phase_village
+			</Techs>
+		</Requirements>
 		<Classes datatype="tokens">Town</Classes>
 	</Identity>
 	<Population>
 		<Bonus>4</Bonus>
 	</Population>
-	<ProductionQueue>
+	<Trainer>
 		<Entities datatype="tokens">
 			units/{civ}/infantry_swordsman_b
 			units/{civ}/infantry_spearman_b
 			units/{civ}/infantry_archer_b
 		</Entities>
-	    <Technologies datatype="tokens">
-	    </Technologies>
-	</ProductionQueue>
+	</Trainer>
 	<VisualActor>
 		<Actor>structures/rus/barracks.xml</Actor>
 		<FoundationActor>structures/fndn_5x5.xml</FoundationActor>

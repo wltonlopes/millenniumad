@@ -27,7 +27,11 @@
     <SpecificName></SpecificName>
     <Tooltip></Tooltip>
     <Icon>structures/structure_hospital.png</Icon>
-    <RequiredTechnology>unlock_hospital</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        unlock_hospital
+      </Techs>
+    </Requirements>
   </Identity>
   <Obstruction>
     <Static width="15.0" depth="15.0"/>

@@ -14,7 +14,7 @@
 		<Civ>norse</Civ>
 		<SpecificName>Salr</SpecificName>
 		<GenericName>Mead Hall</GenericName>
-	    <Requirements>
+	<Requirements>
       <Techs datatype="tokens">
         phase_town
       </Techs>
@@ -31,7 +31,6 @@
     </Technologies>
   </Researcher>
  <Trainer>
-
     <Entities datatype="tokens">
 			units/{civ}/infantry_swordsman_b
 			units/{civ}/infantry_spearman_b

@@ -48,7 +48,6 @@
   </Obstruction>
   <ProductionQueue/>
   <Researcher>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
       trader_health
       trade_gain_01

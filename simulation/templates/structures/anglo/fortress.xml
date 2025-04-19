@@ -23,7 +23,15 @@
   <Population>
     <Bonus>12</Bonus>
   </Population>
-  <ProductionQueue>
+  <Researcher>
+    <Technologies datatype="tokens">
+      siege_attack
+      siege_cost_time
+      siege_health
+      siege_pack_unpack
+    </Technologies>
+  </Researcher>
+<Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry
       units/{civ}/siege_ballista_packed
@@ -36,13 +44,7 @@
       units/{civ}/siege_trebuchet_packed
       units/{civ}/siege_traction_trebuchet_packed
     </Entities>
-    <Technologies datatype="tokens">
-      siege_attack
-      siege_cost_time
-      siege_health
-      siege_pack_unpack
-    </Technologies>
-  </ProductionQueue>
+</Trainer>
   <VisualActor>
     <Actor>structures/anglo/fortress.xml</Actor>
 	<FoundationActor>structures/fndn_6x4.xml</FoundationActor>

@@ -6,9 +6,9 @@
     <SpecificName>Teichos</SpecificName>
     <Requirements>
       <Techs datatype="tokens">
-        phase_town
+        phase_city
       </Techs>
-    </Requirements>phase_city</RequiredTechnology>
+    </Requirements>
   </Identity>
   <WallSet>
     <Templates>

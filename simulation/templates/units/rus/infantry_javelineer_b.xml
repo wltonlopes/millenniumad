@@ -25,11 +25,11 @@
      <SwitchToSword>
       <Entity>units/rus/infantry_axeman</Entity>
       <Tooltip>Switch weapon sword (melee).</Tooltip>
-      <Requirements>
+    <Requirements>
       <Techs datatype="tokens">
         phase_town
       </Techs>
-  </Requirements>
+    </Requirements>
       <Cost>
         <metal>5</metal>
       </Cost>

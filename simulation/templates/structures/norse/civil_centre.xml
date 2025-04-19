@@ -79,7 +79,6 @@
     </Entity>
   </Resistance>
  <Trainer>
-
     <Entities datatype="tokens">
       units/{civ}/infantry_swordsman_b
       units/{civ}/infantry_spearman_b

@@ -11,9 +11,9 @@
     <Icon>units/anglo_hero_offa.png</Icon>
     <Requirements>
       <Techs datatype="tokens">
-        phase_town
+        germanic_thingstead
       </Techs>
-    </Requirements>germanic_thingstead</RequiredTechnology>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/anglo/hero_infantry_swordsman_offa.xml</Actor>

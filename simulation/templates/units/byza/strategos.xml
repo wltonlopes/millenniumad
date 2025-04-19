@@ -38,9 +38,9 @@ Use to boost the efficiency of nearby units and buildings. Garrison within a bui
     <History>In the Byzantine Empire, Archontes were a class of provincial governors in charge to administer the bureaucratic affairs of the cities.</History>
     <Requirements>
       <Techs datatype="tokens">
-        phase_town
+        byza/military_reform
       </Techs>
-    </Requirements>byza/military_reform</RequiredTechnology>
+    </Requirements>
   </Identity>
   <Minimap>
     <Type>hero</Type>

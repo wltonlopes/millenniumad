@@ -14,11 +14,6 @@
   <Population>
     <Bonus>4</Bonus>
   </Population>
-  <ProductionQueue>
-
-    <Technologies datatype="tokens">
-    </Technologies>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/rus/blacksmith.xml</Actor>
   </VisualActor>

@@ -80,7 +80,6 @@
     <Weight>30000</Weight>
   </TerritoryInfluence>
   <Trainer>
-
     <Entities datatype="tokens">
       units/{civ}_support_healer_b
     </Entities>

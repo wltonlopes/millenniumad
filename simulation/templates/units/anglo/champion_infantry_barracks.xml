@@ -3,8 +3,8 @@
   <Identity>
     <Requirements>
       <Techs datatype="tokens">
-        phase_town
+        unlock_champion_units_modded
       </Techs>
-    </Requirements>unlock_champion_units_modded</RequiredTechnology>
+    </Requirements>
   </Identity>
 </Entity>

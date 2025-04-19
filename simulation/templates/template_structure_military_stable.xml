@@ -60,7 +60,6 @@
     </SoundGroups>
   </Sound>
   <Trainer>
-
     <Entities datatype="tokens">
       units/{civ}/cavalry_scout
       units/{civ}/cavalry_axeman_b

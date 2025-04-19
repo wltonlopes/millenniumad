@@ -27,9 +27,9 @@
     <VisibleClasses datatype="tokens">Library</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">
-        phase_town
+        phase_city
       </Techs>
-    </Requirements>phase_city</RequiredTechnology>
+    </Requirements>
     <Icon>structures/library_scroll.png</Icon>
   </Identity>
   <Loot>

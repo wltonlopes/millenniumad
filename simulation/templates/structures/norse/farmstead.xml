@@ -25,17 +25,18 @@
   <Population>
     <Bonus>2</Bonus>
   </Population>
-  <ProductionQueue>
-
+  <Researcher>
+    <Technologies datatype="tokens">
+      gather_animals_stockbreeding
+    </Technologies>
+  </Researcher>
+  <RallyPoint/>
+<Trainer>
     <Entities datatype="tokens">
       gaia/fauna_sheep_trainable
       gaia/fauna_pig_trainable
     </Entities>
-    <Technologies datatype="tokens">
-      gather_animals_stockbreeding
-    </Technologies>
-  </ProductionQueue>
-  <RallyPoint/>
+</Trainer>
   <VisualActor>
     <Actor>structures/norse/corral.xml</Actor>
   </VisualActor>

@@ -6,10 +6,6 @@
   <Identity>
     <Requirements>
       <Techs datatype="tokens">
-        phase_town
-      </Techs>
-    <Requirements>
-      <Techs datatype="tokens">
         unlock_females_house
       </Techs>
     </Requirements>

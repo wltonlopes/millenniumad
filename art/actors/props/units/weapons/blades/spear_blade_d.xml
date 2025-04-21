@@ -19,5 +19,5 @@
       <mesh>props/spear_blade_c.dae</mesh>
     </variant>
   </group>
-  <material>basic_spec.xml</material>
+  <material>objectcolor.xml</material>
 </actor>

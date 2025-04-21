@@ -14,7 +14,7 @@
 			<mesh>props/weap_caro_mace.dae</mesh>
 		</variant>
 	</group>
-  <material>basic_spec.xml</material>
+  <material>objectcolor.xml</material>
 </actor>
 
 

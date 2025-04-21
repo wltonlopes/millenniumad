@@ -80,5 +80,5 @@
 		<variant file="biped/cape_build_farm.xml"/>
 		<variant file="biped/death_cape.xml"/>
 	</group>
-	<material>basic_trans.xml</material>
+	<material>objectcolor.xml</material>
 </actor>

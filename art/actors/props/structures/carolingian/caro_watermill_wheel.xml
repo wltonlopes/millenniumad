@@ -11,5 +11,5 @@
 			</textures>
 		</variant>
 	</group>
-	<material>default.xml</material>
+	<material>player_trans.xml</material>
 </actor>

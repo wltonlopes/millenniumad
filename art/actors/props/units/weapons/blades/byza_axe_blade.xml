@@ -16,5 +16,5 @@
       <mesh>props/byza_axe_blade_b.dae</mesh>
     </variant>
   </group>
-  <material>basic_spec.xml</material>
+  <material>objectcolor.xml</material>
 </actor>

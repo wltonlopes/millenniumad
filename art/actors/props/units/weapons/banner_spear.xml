@@ -6,5 +6,5 @@
       <textures><texture file="props/banner_spear.png" name="baseTex"/></textures>
     </variant>
   </group>
-	<material>basic_spec.xml</material>
+	<material>objectcolor.xml</material>
 </actor>

@@ -36,8 +36,6 @@
   <Obstruction>
     <Static width="15.0" depth="15.0"/>
   </Obstruction>
-  <ProductionQueue>
-  </ProductionQueue>
    <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
   <VisualActor>

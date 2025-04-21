@@ -5,8 +5,9 @@
 		<variant frequency="100" name="Umayyad Stables">
 			<mesh>structural/umay_stable.dae</mesh>
 			<textures>
-		<texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/umay/umay_struct_02_spec.png" name="specTex"/>
         <texture file="structural/ao/umay_stable_ao.png" name="aoTex"/>
 			</textures>
 			<props>

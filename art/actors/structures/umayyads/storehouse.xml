@@ -5,8 +5,9 @@
     <variant name="Storehouse">
       <mesh>structural/umay_storehouse.dae</mesh>
       <textures>
-				<texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/umay/umay_struct_02_spec.png" name="specTex"/>
        <texture file="structural/ao/umay_storehouse_ao.png" name="aoTex"/> 
 			</textures>
       <props>
@@ -32,5 +33,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_parallax.xml</material>
+<material>player_trans_ao_parallax_spec.xml</material>
 </actor>

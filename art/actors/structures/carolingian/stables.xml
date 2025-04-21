@@ -8,7 +8,6 @@
 				<texture file="structural/caro_struct_02.png" name="baseTex"/>
 				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
 				<texture file="structural/caro_struct_02_spec.png" name="specTex"/>
-				<texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/>
 			</textures>
 			<props>
 				<prop actor="props/structures/decals/dirt_4x6.xml" attachpoint="root"/>
@@ -19,5 +18,5 @@
 			</props>
 		</variant>
 	</group>
- 	<material>player_trans_ao_parallax_spec.xml</material>
+ 	<material>player_trans_parallax_spec.xml</material>
 </actor>

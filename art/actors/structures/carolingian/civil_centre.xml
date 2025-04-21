@@ -11,7 +11,7 @@
 				<texture file="structural/ao/caro_civ_center_ao.png" name="aoTex"/>
 			</textures>
 			<props>
-				<prop actor="props/structures/decals/dirt_6x3.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/spart_5x5.xml" attachpoint="root"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
 			</props>

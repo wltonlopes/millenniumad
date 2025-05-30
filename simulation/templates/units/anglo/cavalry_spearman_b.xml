@@ -6,6 +6,7 @@
 	  <SelectionGroupName>units/anglo/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Rideheres</SpecificName>
     <Icon>units/anglo_cavalry_spearman.png</Icon>
+    <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">
         phase_town

@@ -9,6 +9,7 @@
     <GenericName>Offa of Mercia</GenericName>
     <SpecificName>Offa</SpecificName>
     <Icon>units/anglo_hero_offa.png</Icon>
+    <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">
         germanic_thingstead

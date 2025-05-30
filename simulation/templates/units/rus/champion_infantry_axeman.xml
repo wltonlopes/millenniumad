@@ -15,6 +15,7 @@
     <GenericName>Варяжская стража</GenericName>
     <SpecificName>Varangian Guard</SpecificName>
     <Icon>units/norse_huskarl.png</Icon>
+    <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">
         unlock_mercenaries

@@ -6,6 +6,7 @@
 			<textures>
 				<texture file="props/shields/shield06_a-player_b-black.png" name="baseTex"/>
 				<texture file="props/shields/caro_metallic_shield_spec.png" name="specTex"/>
+			    <texture file="default_norm.png" name="normTex"/>
 			</textures>
 		</variant>
 	</group>  

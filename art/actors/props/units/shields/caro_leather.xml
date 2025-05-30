@@ -11,12 +11,14 @@
 			<textures>
 				<texture file="props/shields/caro_leather_a.png" name="baseTex"/>
 				<texture file="props/shields/caro_leather_a_spec.png" name="specTex"/>
+				<texture file="default_norm.png" name="normTex"/>
 			</textures>
 		</variant>
     <variant frequency="1" name="placeholder">
 			<textures>
 				<texture file="props/shields/caro_leather_a.png" name="baseTex"/>
 				<texture file="props/shields/caro_leather_a_spec.png" name="specTex"/>
+				<texture file="default_norm.png" name="normTex"/>
 			</textures>
 		</variant>
 	</group>  

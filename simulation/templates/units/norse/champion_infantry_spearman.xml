@@ -24,6 +24,7 @@
     <GenericName>Fanatic</GenericName>
     <SpecificName>Berserkr</SpecificName>
     <Icon>units/norse_berserker.png</Icon>
+    <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">
         unlock_champion_units_modded

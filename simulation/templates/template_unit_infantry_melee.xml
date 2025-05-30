@@ -6,9 +6,9 @@
   <Identity>
     <GenericName>Melee Infantry</GenericName>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
-    <Formations datatype="tokens">
+    <!-- <Formations datatype="tokens">
       special/formations/shieldwall
       special/formations/testudo
-    </Formations>
+    </Formations> -->
   </Identity>
 </Entity>

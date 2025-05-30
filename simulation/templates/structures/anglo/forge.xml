@@ -3,6 +3,7 @@
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>Smiþþe</SpecificName>
+    <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">
         phase_town

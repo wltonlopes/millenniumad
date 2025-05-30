@@ -4,6 +4,7 @@
     <Civ>byza</Civ>
     <GenericName>Inner Wall</GenericName>
     <SpecificName>Teichos</SpecificName>
+    <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">
         phase_city

@@ -35,6 +35,7 @@
     <SpecificName></SpecificName>
     <SelectionGroupName>units/byza/champion_infantry_swordsman</SelectionGroupName>
     <Icon>technologies/spy_trader.png</Icon>
+    <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">
         umay/jihad

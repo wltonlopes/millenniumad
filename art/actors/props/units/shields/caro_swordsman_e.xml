@@ -6,6 +6,7 @@
       <mesh>props/shield/shield_norse_round_e.dae</mesh>
       <textures>
         <texture file="props/shields/iron_shield_leather_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>

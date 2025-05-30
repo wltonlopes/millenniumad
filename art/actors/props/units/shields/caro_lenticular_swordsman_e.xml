@@ -6,6 +6,7 @@
       <mesh>props/shield/shield_caro_round.dae</mesh>
       <textures>
         <texture file="props/shields/caro/lenticular/caro_lenticular_spec_leather_elite.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>

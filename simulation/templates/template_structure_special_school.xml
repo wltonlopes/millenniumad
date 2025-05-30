@@ -25,6 +25,7 @@
     <GenericName>Library</GenericName>
     <SelectionGroupName>template_structure_special_library</SelectionGroupName>
     <VisibleClasses datatype="tokens">Library</VisibleClasses>
+    <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">
         phase_city

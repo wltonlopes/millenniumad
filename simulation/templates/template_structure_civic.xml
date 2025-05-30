@@ -4,6 +4,7 @@
     <Classes datatype="tokens">ConquestCritical</Classes>
     <GenericName>Civic Structure</GenericName>
     <VisibleClasses datatype="tokens">Civic</VisibleClasses>
+    <Tooltip>.</Tooltip>
   </Identity>
   <Resistance>
     <Entity>
